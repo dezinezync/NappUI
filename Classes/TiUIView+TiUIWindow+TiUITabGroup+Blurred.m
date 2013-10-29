@@ -209,27 +209,27 @@
     if(!enabled)
     {
         //We no longer need the blurred image
-        [[self viewWithTag:100] removeFromSuperview];
+        [[controller.view viewWithTag:100] removeFromSuperview];
     }
     else
     {
         
         //If we have a UIImageView in our view, don't add a new one
-        if([self viewWithTag:100] == nil)
+        if([controller.view viewWithTag:100] == nil)
         {
             UIImageView *blurredImageView = [UIImageView new];
             blurredImageView.tag=100;
             blurredImageView.frame = self.frame;
             
-            [self addSubview:blurredImageView];
+            [controller.view addSubview:blurredImageView];
         }
         
         NSString *type = [args valueForKey:@"type"];
         
         // Create the image context
-        UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, self.window.screen.scale);
+        UIGraphicsBeginImageContextWithOptions(controller.view.bounds.size, NO, self.window.screen.scale);
         
-        [self drawViewHierarchyInRect:self.frame afterScreenUpdates:NO];
+        [self drawViewHierarchyInRect:controller.view.frame afterScreenUpdates:NO];
         
         // Get the snapshot
         UIImage *snapshotImage = UIGraphicsGetImageFromCurrentImageContext();
@@ -257,12 +257,12 @@
             }
             
             
-            ((UIImageView *)[self viewWithTag:100]).image = blurredSnapshotImage;
+            ((UIImageView *)[controller.view viewWithTag:100]).image = blurredSnapshotImage;
             
         }
         else
         {
-            ((UIImageView *)[self viewWithTag:100]).image = snapshotImage;
+            ((UIImageView *)[controller.view viewWithTag:100]).image = snapshotImage;
         }
         
         // Be nice and clean your mess up
