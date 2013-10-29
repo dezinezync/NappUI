@@ -34,7 +34,7 @@
 		B6080BFE179048DA00A05964 /* TiUITextField+Extended.h in Headers */ = {isa = PBXBuildFile; fileRef = B679C134177C79AF0069CD29 /* TiUITextField+Extended.h */; };
 		B6080BFF179048DA00A05964 /* TiUIView+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = B679C136177C79AF0069CD29 /* TiUIView+Animation.h */; };
 		B6080C00179048DA00A05964 /* TiUIView+Gestures.h in Headers */ = {isa = PBXBuildFile; fileRef = B679C138177C79AF0069CD29 /* TiUIView+Gestures.h */; };
-		B6080C01179048DA00A05964 /* TiUIView+TiUIWindow+Blurred.h in Headers */ = {isa = PBXBuildFile; fileRef = B679C13A177C79AF0069CD29 /* TiUIView+TiUIWindow+Blurred.h */; };
+		B6080C01179048DA00A05964 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.h in Headers */ = {isa = PBXBuildFile; fileRef = B679C13A177C79AF0069CD29 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.h */; };
 		B6080C02179048DA00A05964 /* TiUIView+WithShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = B679C13C177C79AF0069CD29 /* TiUIView+WithShadow.h */; };
 		B6080C03179048DA00A05964 /* TiUIWebView+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = B679C13E177C79AF0069CD29 /* TiUIWebView+Extend.h */; };
 		B6080C04179048ED00A05964 /* TiUIiOSToolbarProxy+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = B679C12B177C79AE0069CD29 /* TiUIiOSToolbarProxy+Extended.m */; };
@@ -45,7 +45,7 @@
 		B6080C09179048ED00A05964 /* TiUITextField+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = B679C135177C79AF0069CD29 /* TiUITextField+Extended.m */; };
 		B6080C0A179048ED00A05964 /* TiUIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = B679C137177C79AF0069CD29 /* TiUIView+Animation.m */; };
 		B6080C0B179048ED00A05964 /* TiUIView+Gestures.m in Sources */ = {isa = PBXBuildFile; fileRef = B679C139177C79AF0069CD29 /* TiUIView+Gestures.m */; };
-		B6080C0C179048ED00A05964 /* TiUIView+TiUIWindow+Blurred.m in Sources */ = {isa = PBXBuildFile; fileRef = B679C13B177C79AF0069CD29 /* TiUIView+TiUIWindow+Blurred.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B6080C0C179048ED00A05964 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.m in Sources */ = {isa = PBXBuildFile; fileRef = B679C13B177C79AF0069CD29 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		B6080C0D179048ED00A05964 /* TiUIView+WithShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = B679C13D177C79AF0069CD29 /* TiUIView+WithShadow.m */; };
 		B6080C0E179048ED00A05964 /* TiUIWebView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B679C13F177C79AF0069CD29 /* TiUIWebView+Extend.m */; };
 		B6655F42177C506F004E2E16 /* DkNappUiModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* DkNappUiModuleAssets.h */; };
@@ -100,8 +100,8 @@
 		B679C137177C79AF0069CD29 /* TiUIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIView+Animation.m"; path = "Classes/TiUIView+Animation.m"; sourceTree = "<group>"; };
 		B679C138177C79AF0069CD29 /* TiUIView+Gestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIView+Gestures.h"; path = "Classes/TiUIView+Gestures.h"; sourceTree = "<group>"; };
 		B679C139177C79AF0069CD29 /* TiUIView+Gestures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIView+Gestures.m"; path = "Classes/TiUIView+Gestures.m"; sourceTree = "<group>"; };
-		B679C13A177C79AF0069CD29 /* TiUIView+TiUIWindow+Blurred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIView+TiUIWindow+Blurred.h"; path = "Classes/TiUIView+TiUIWindow+Blurred.h"; sourceTree = "<group>"; };
-		B679C13B177C79AF0069CD29 /* TiUIView+TiUIWindow+Blurred.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIView+TiUIWindow+Blurred.m"; path = "Classes/TiUIView+TiUIWindow+Blurred.m"; sourceTree = "<group>"; };
+		B679C13A177C79AF0069CD29 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIView+TiUIWindow+TiUITabGroup+Blurred.h"; path = "Classes/TiUIView+TiUIWindow+TiUITabGroup+Blurred.h"; sourceTree = "<group>"; };
+		B679C13B177C79AF0069CD29 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIView+TiUIWindow+TiUITabGroup+Blurred.m"; path = "Classes/TiUIView+TiUIWindow+TiUITabGroup+Blurred.m"; sourceTree = "<group>"; };
 		B679C13C177C79AF0069CD29 /* TiUIView+WithShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIView+WithShadow.h"; path = "Classes/TiUIView+WithShadow.h"; sourceTree = "<group>"; };
 		B679C13D177C79AF0069CD29 /* TiUIView+WithShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIView+WithShadow.m"; path = "Classes/TiUIView+WithShadow.m"; sourceTree = "<group>"; };
 		B679C13E177C79AF0069CD29 /* TiUIWebView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIWebView+Extend.h"; path = "Classes/TiUIWebView+Extend.h"; sourceTree = "<group>"; };
@@ -190,8 +190,8 @@
 				B679C137177C79AF0069CD29 /* TiUIView+Animation.m */,
 				B679C138177C79AF0069CD29 /* TiUIView+Gestures.h */,
 				B679C139177C79AF0069CD29 /* TiUIView+Gestures.m */,
-				B679C13A177C79AF0069CD29 /* TiUIView+TiUIWindow+Blurred.h */,
-				B679C13B177C79AF0069CD29 /* TiUIView+TiUIWindow+Blurred.m */,
+				B679C13A177C79AF0069CD29 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.h */,
+				B679C13B177C79AF0069CD29 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.m */,
 				B679C13C177C79AF0069CD29 /* TiUIView+WithShadow.h */,
 				B679C13D177C79AF0069CD29 /* TiUIView+WithShadow.m */,
 				B679C13E177C79AF0069CD29 /* TiUIWebView+Extend.h */,
@@ -233,7 +233,7 @@
 				B6080BFE179048DA00A05964 /* TiUITextField+Extended.h in Headers */,
 				B6080BFF179048DA00A05964 /* TiUIView+Animation.h in Headers */,
 				B6080C00179048DA00A05964 /* TiUIView+Gestures.h in Headers */,
-				B6080C01179048DA00A05964 /* TiUIView+TiUIWindow+Blurred.h in Headers */,
+				B6080C01179048DA00A05964 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.h in Headers */,
 				B6080C02179048DA00A05964 /* TiUIView+WithShadow.h in Headers */,
 				B6080C03179048DA00A05964 /* TiUIWebView+Extend.h in Headers */,
 				F0F51DEC181EC71C00AD4DD0 /* UIImage+ImageEffects.h in Headers */,
@@ -323,7 +323,7 @@
 				B6080C09179048ED00A05964 /* TiUITextField+Extended.m in Sources */,
 				B6080C0A179048ED00A05964 /* TiUIView+Animation.m in Sources */,
 				B6080C0B179048ED00A05964 /* TiUIView+Gestures.m in Sources */,
-				B6080C0C179048ED00A05964 /* TiUIView+TiUIWindow+Blurred.m in Sources */,
+				B6080C0C179048ED00A05964 /* TiUIView+TiUIWindow+TiUITabGroup+Blurred.m in Sources */,
 				B6080C0D179048ED00A05964 /* TiUIView+WithShadow.m in Sources */,
 				B6080C0E179048ED00A05964 /* TiUIWebView+Extend.m in Sources */,
 				B6A113291793249C0017AEF2 /* TiUIiPhoneNavigationGroupProxy+Extended.m in Sources */,
