@@ -122,6 +122,29 @@
     return [self applyBlurWithRadius:15 tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
 }
 
+-(UIImage *)applyLightEffectWithRadius:(CGFloat)radius
+{
+    if(radius < 0) radius=0;
+    
+    UIColor *tintColor = [UIColor colorWithWhite:1.0 alpha:0.3];
+    return [self applyBlurWithRadius:radius tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
+}
+
+-(UIImage *)applyExtraLightEffectWithRadius:(CGFloat)radius
+{
+    if(radius < 0) radius=0;
+    
+    UIColor *tintColor = [UIColor colorWithWhite:0.97 alpha:0.82];
+    return [self applyBlurWithRadius:radius tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
+}
+
+-(UIImage *)applyDarkEffectWithRadius:(CGFloat)radius
+{
+    if(radius < 0) radius=0;
+    
+    UIColor *tintColor = [UIColor colorWithWhite:0.11 alpha:0.73];
+    return [self applyBlurWithRadius:radius tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
+}
 
 - (UIImage *)applyTintEffectWithColor:(UIColor *)tintColor
 {
